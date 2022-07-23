@@ -1,0 +1,11 @@
+.place__item{  
+    grid-row: 2;
+    grid-column: 1;
+    }  
+
+@media screen and (max-width: 568px){
+    .place__item{  
+          grid-row: 3;
+          grid-column: 1;
+        }  
+    }

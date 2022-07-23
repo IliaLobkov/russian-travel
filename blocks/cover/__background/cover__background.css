@@ -1,0 +1,31 @@
+.cover__background{
+    width: 100%;
+    min-height: 740px;
+    max-height: 100%;
+    object-fit: cover;
+    background: #2A2C2F;
+    opacity: 0.8;
+  }
+  
+.cover__background:hover{
+    opacity: 0.3;
+    background: #2A2C2F;
+  }
+
+@media screen and (max-width: 1140px){ 
+  .cover__background{
+     min-height: 640px;
+   }
+  }
+
+@media screen and (max-width: 900px){
+  .cover__background{
+      min-height: 480px;
+    }
+  }
+
+@media screen and (max-width: 360px){
+  .cover__background{
+      min-height: 200px;
+   }
+  }
