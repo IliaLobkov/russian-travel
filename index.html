@@ -12,11 +12,11 @@
     <header class="header">
       <img src="./sprint-3-images/header-logo.svg" alt="Логотип" class="header__logo">
       <div class="header__lang-links">
-        <p class="header__lang-link">Ru</p>
-        <p class="header__lang-link">En</p>
+        <a class="header__lang-link" href="#">Ru</a>
+        <a class="header__lang-link" href="#">En</a>
       </div>
     </header>
-    <!-- <main class="content">   -->
+    <main class="content">   
       <section class="lead">
         <h1 class="lead__title title">Путешествия по России</h1>
         <p class="lead__subtitle subtitle">Настоящая страна не в выпусках новостей, а здесь</p>
@@ -27,11 +27,11 @@
         <h2 class="intro__title title">Чего мы там не видели?</h2>
         <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия - это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А еще увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова - смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою "Ладу" и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
         <ul class="intro__list">
-          <li class="intro__list-text">Часовых поясов 11</li>
-          <li class="intro__list-text">Объектов природного наследия ЮНЕСКО 12</li>
-          <li class="intro__list-text">Объектов культурного наследия ЮНЕСКО 16</li>
-          <li class="intro__list-text">Природных заповедников 105</li>
-          <li class="intro__list-text">Аэропортов 241</li>
+          <li class="intro__list-text">Часовых поясов <span class="intro__list-text intro__list-number">11</span></li>
+          <li class="intro__list-text">Объектов природного наследия ЮНЕСКО <span class="intro__list-text intro__list-number">12</span></li>
+          <li class="intro__list-text">Объектов культурного наследия ЮНЕСКО <span class="intro__list-text intro__list-number">16</span></li>
+          <li class="intro__list-text">Природных заповедников <span class="intro__list-text intro__list-number">105</span></li>
+          <li class="intro__list-text">Аэропортов <span class="intro__list-text intro__list-number">241</span></li>
         </ul>
       </section>
       <section class="photo-grid">
@@ -54,7 +54,7 @@
           <img class="place__image" src="./sprint-3-images/place-kosa.jpg" alt="Куршская коса">
             <div class="place__website">
               <p class="place__url-heading">URL</p>
-              <a class="place__link" href="http://park-kosa.ru">park-kosa.ru</a>
+              <a class="place__link link" href="http://park-kosa.ru">park-kosa.ru</a>
             </div>
             <div class="place__paragraphs">
               <p class="place__paragraph">Здесь, посреди лесов и песчанных дюн, вы сможете увидеть два водных горизонта - спокойного Куршского залива с одной стороны и подёрнутого рябью волн Балтийского моря с другой. Уникальная природная зона на краю российского анклава.</p>
@@ -118,10 +118,11 @@
         <a class="cover__background" href="https://stampsy.com/na-elektrichkakh-do-baikala">
           <div class="cover__overlay"></div>
           <h2 class="title cover__title">До Байкала "на собаках"</h2>
-        <p class="subtitle cover__subtitle">По мотивам учебной темы о Транссибе - путешествие от столицы до Байкала на электричках.</p>
+          <p class="subtitle cover__subtitle">По мотивам учебной темы о Транссибе - путешествие от столицы до Байкала на электричках.</p>
         </a>
       </section> 
-      <section class="footer">
+    </main> 
+      <footer class="footer">
         <nav class="footer__links">
           <a class="footer__link" href="https://yandex.ru/maps">Карты</a>
           <a class="footer__link" href="https://yandex.ru/pogoda">Погода</a>
@@ -129,9 +130,8 @@
           <a class="footer__link" href="https://calendar.yandex.ru">Календарь</a>
           <a class="footer__link" href="https://travel.yandex.ru">Путешествия</a>
         </nav>
-        <p class="footer__copyright">©2022 Илья Лобков</p>
-      </section>
-    <!-- </main>  -->
+        <address class="footer__copyright">©2022 Илья Лобков</address>
+      </footer>
   </div>
 </body>
 </html>
