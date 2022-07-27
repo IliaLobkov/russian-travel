@@ -4,7 +4,6 @@
     padding: 28px 0 56px;
     min-width: 92.5%;
     max-width: 1184px;
-    height: 52px;
     justify-content: space-between;
     margin: 0;
     position: relative;
@@ -14,11 +13,12 @@
 @media screen and (max-width: 1140px){ 
     .header{
       padding-bottom: 48px;
+      min-width: 90.6%;
     }
   }
 
-@media screen and (max-width: 568px){
+  @media screen and (max-width: 580px){ 
     .header{
-      height: 42px;
+      padding-top: 16px;
     }
   }

@@ -2,7 +2,7 @@
     color: #FFFFFF;
     font-size: 18px;
     line-height: 122%;
-    width: 360px;
+    max-width:360px;
     text-align: center;
     margin: 0;
     z-index: 10;
@@ -12,6 +12,6 @@
   .cover__subtitle{
       font-size: 14px;
       line-height: 114%;
-      width: 259px;
+      max-width: 259px;
     }
   }

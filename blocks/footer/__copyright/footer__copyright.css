@@ -4,12 +4,12 @@
     font-size: 14px;
     line-height: 114%;
     color: #FFFFFF;
+    margin: 0;
   }
 
 @media screen and (max-width: 700px){
     .footer__copyright{
       font-size: 12px;
-      margin: 0;
     }
   }
   
@@ -17,7 +17,6 @@
     .footer__copyright{
       font-size: 14px;
       line-height: 100%;
-      margin: 0;
       padding: 0;
     }
   }

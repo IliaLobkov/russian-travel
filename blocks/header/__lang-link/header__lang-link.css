@@ -7,8 +7,12 @@
   }
 
 .header__lang-link:hover{ 
-    text-decoration: underline;
+    opacity: 0.8;
   } 
+
+.header__lang-link:focus{
+    text-decoration: underline;
+}
   
 @media screen and (max-width: 568px){
     .header__lang-link{

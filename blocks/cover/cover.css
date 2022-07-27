@@ -2,12 +2,11 @@
     display: flex;
     position: relative;
     flex-direction: column;
-    align-items: center;
+    text-align: center;
     margin: 0;
     width: 92.5%;
-    height: calc(100vw*0.925*0.625);
-    max-height: 740px;
-    background-image: url(../../sprint-3-images/cover-trains.jpg);
+    height: calc(100vw*0.925*0.625); 
+    background-image: url(../../images/cover-trains.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
   }
