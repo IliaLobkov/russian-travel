@@ -3,12 +3,7 @@
     flex-direction: row;
     justify-content: space-between;
     position: relative;
-    min-width: 77px;
     margin-top: 13px;
+    gap: 18px;
   }
 
- @media screen and (max-width: 568px){
-    .header__lang-links {
-      min-width: 62px;
-    }
-  }

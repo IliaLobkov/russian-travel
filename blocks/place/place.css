@@ -14,14 +14,12 @@
 
 @media screen and (max-width: 1140px){ 
     .place{
-     grid-template-columns: 47% 49%;
-     gap: 48px 32px;
+      gap: 48px 32px;
     }
   }
 
 @media screen and (max-width: 900px){
     .place{
-      grid-template-columns: 47% 49%;
       gap: 48px 28px;
       padding-bottom: 73px;
     }

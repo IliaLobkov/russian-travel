@@ -17,6 +17,12 @@
     }
   }
 
+@media screen and (max-width: 900px){
+    .header{
+      min-width: 93.7%;
+  }
+}
+
   @media screen and (max-width: 580px){ 
     .header{
       padding-top: 16px;
